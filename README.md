@@ -14,6 +14,7 @@ La otra opcion es colocar el archivo en el directorio de tu gusto y agregar la r
 Si agregas el archivo de forma manual tene en cuenta que vas a tener que agregar el PATH cada ves que reinicies tu terminal. Lo ideal es colocarlo dentro del archivo de configuracion de tu terminal (.bashrc o .zhrc dentro de tu directorio home).
 
 Este es un preview del script:
+
 ![image](https://github.com/Sk3at/Creador-directorios-CTFs/assets/92405961/614dcb76-d16d-44ff-860b-3832e235926b)
 
 ¡¡Saludos!!
