@@ -1,0 +1,13 @@
+#/bin/bash
+
+#Verificar si se proporciona argumento.
+if [ $# -eq 0 ]; then
+  echo "Uso: $0 <nombre del directorio padre>"
+  exit 1
+fi
+#Establece el argumento 1 como nombre de directorio padre.
+DIR=$1
+#Se crea la funcion que utiliza mkdir para crear tanto el directorio padre como los directorios hijos.
+mkpt() {
+        mkdir -p $1 {nmap,scripts,loot}
+}
